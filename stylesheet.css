@@ -1,0 +1,95 @@
+body {
+  background-image: url("hotel.jpg");
+  /* Photo from pixabay */
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+nav {
+  background-color: #fff;
+}
+
+.form-container {
+  max-width: 718px;
+  margin: 200px auto 25px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 15px;
+}
+.form-container .contact-heading {
+  margin-bottom: 25px;
+}
+
+.reservation-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-container {
+  max-width: 718px;
+  margin: 0 auto 200px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 15px;
+}
+.summary-container .reservation-list {
+  margin: 50px auto;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #fff;
+  padding: 50px;
+}
+footer .footer-element-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+footer .footer-element-container a {
+  color: #333;
+  text-decoration: underline;
+}
+footer .footer-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    margin: 100px 25px 25px;
+  }
+
+  .summary-container {
+    margin: 0 25px 200px 25px;
+  }
+
+  .reservation-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reservation-image {
+    margin-bottom: 50px;
+  }
+
+  .footer-element-container a {
+    display: block;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
