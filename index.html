@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Your reservation</title>
+  <meta property="og:description" content="Lorem ipsum">
+  <meta property="og:title" content="Lorem ipsum - confirm your reservation">
+  <meta property="og:url" content="https://lorempipsum.fi">
+  <meta name="description" content="Lorem ipsum">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <a class="navbar-brand" href="#">
+      <img src="MP-Logo.png" height="30" class="d-inline-block align-top" alt="home-link">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            EN
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Suomi</a>
+            <a class="dropdown-item" href="#">Deutsch</a>
+            <a class="dropdown-item" href="#">Espanol</a>
+            <a class="dropdown-item" href="#">Svenska</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            James
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Your profile</a>
+            <a class="dropdown-item" href="#">Log out</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="content-section">
+    <div class="form-container">
+      <h1 class="contact-heading">Your contact details</h1>
+      <form class="checkout-form">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="first-name">First name</label>
+            <input type="text" class="form-control" id="first-name" placeholder="First name" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="last-name">Last name</label>
+            <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="telephone">Phone</label>
+            <input type="tel" class="form-control" id="telephone" placeholder="Phone" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="company">Company</label>
+            <input type="text" class="form-control" id="company" placeholder="Company">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Additional information</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              I agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Continue</button>
+      </form>
+    </div>
+    <div class="summary-container">
+      <h2>Reservation summary</h2>
+      <h3>Regus Luna House</h3>
+      <div class="row">
+        <div class="col-md-5 reservation-text">
+          <ul class="reservation-list">
+            <li>Friday, February 14, 2019</li>
+            <li>09:00 to 17:00</li>
+            <li>Lounge</li>
+            <li>Delegates: 10</li>
+            <li>Price per delegate: 55 EUR</li>
+          </ul>
+        </div>
+        <div class="col-md-7 reservation-image">
+          <img class="" alt="logo" src="MP-Logo.png"/>
+        </div>
+      </div>
+      <h3>Total: 550 EUR</h3>
+    </div>
+  </section>
+  <footer>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="footer-element-container">
+          <div class="footer-links">
+            <h2 class="footer-header">Solutions</h2>
+            <a href="#">Hotel Chains</a><br>
+            <a href="#">Independent Hotels</a><br>
+            <a href="#">Partners</a><br>
+            <a href="#">Unique Venues and Event spaces</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2 class="footer-header">Products</h2>
+        <div class="footer-element-container">
+          <div class="footer-links">
+            <a href="#">Online Booking Engine</a><br>
+            <a href="#">Global Distribution System</a><br>
+            <a href="#">Sales & Catering</a><br>
+            <a href="#">Integrations</a><br>
+            <a href="#">Analytics</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2 class="footer-header">More</h2>
+        <div class="footer-element-container">
+          <div class="footer-links">
+            <a href="#">Online Booking Engine</a><br>
+            <a href="#">Global Distribution System</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="footer-img" alt="logo" src="MP-Logo.png"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </footer>
+</body>
+</html>
